@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+  }
+  
+  /* navbar */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dbdbdb;
+    padding: 0 40px;
+  }
+  
+  nav .kiri ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .kiri ul img {
+    margin-right: 50;
+  }
+  
+  nav .kiri ul li {
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  
+  nav .kiri ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav .kiri ul .active a {
+    color: orangered;
+    font-weight: bold;
+  }
+  
+  nav .kanan a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .testimonials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial img {
+    width: 250px;
+    height: 100%;
+    display: flex;
+  }
+
+  .testimonial {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .testimonial .author {
+    display: flex;
+    justify-content: end;
+  }
