@@ -8,12 +8,13 @@ class Testimonial {
         this.content = content;
         this.author = author;
     }
+    
     html() {
-            throw new Error(
-              "You should use one of 'AuthorTestimonial' or 'CompanyTestimonial'"
-            );
-          }
-        }
+      throw new Error(
+        "You should use one of 'AuthorTestimonial' or 'CompanyTestimonial'"
+      );
+    }
+}
 
 class AuthorTestimonial extends Testimonial {
   html() {
@@ -26,9 +27,9 @@ class AuthorTestimonial extends Testimonial {
 }
 
 const testimonial1  = new AuthorTestimonial (
-"https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
-"Mantap sekali jasnya",
-"Felic Valentino"
+  "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "Mantap sekali jasnya",
+  "Felic Valentino"
 );
 
 const testimonial2  = new AuthorTestimonial (
@@ -38,9 +39,9 @@ const testimonial2  = new AuthorTestimonial (
 );
 
 const testimonial3  = new AuthorTestimonial (
-"https://images.pexels.com/photos/936119/pexels-photo-936119.jpeg?auto=compress&cs=tinysrgb&w=800",
-"Apa yang buat kamu bahagia bro",
-"Athena"
+  "https://images.pexels.com/photos/936119/pexels-photo-936119.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "Apa yang buat kamu bahagia bro",
+  "Athena"
 );
 
 
